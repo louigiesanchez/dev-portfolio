@@ -48,10 +48,17 @@ h2{
 
 }
 
+.picture {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .header{
 	width: 600px;
 	margin: 0 auto;
 	text-align: center;
+	opacity: 0.25
 }
 
 .container{
