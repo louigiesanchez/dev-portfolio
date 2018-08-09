@@ -3,17 +3,14 @@
 body{
 
 	background-image: url(../images/bg.png);
-/*	background-image: url(../images/pattern1.png);*/
-	height: 100%;
+	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto Condensed', sans-serif;
 	overflow: hidden;
 	background-color: #0070C9;
-
-
 }
 
 h1 {
@@ -25,7 +22,7 @@ h1 {
 }
 
 h2{
-	text-transform: uppercase;
+	text-transform: capitalize;
 	letter-spacing: 5px;
 	color: yellow;
 }
@@ -34,25 +31,31 @@ h2{
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	border-style: solid;
+	border-style: solid dotted;
 	border-width: 5px;
-	border-color: white;
+	border-color: blue;
 	margin-top: 50px;
 }
 
 .about {
-	width: 100%
+	width: 80%
 	font-size:18px;
 	line-height: 1.5;
-	background-color: rgba(51,51,51,0.8);
-	font-family: 'PT Serif', serif;
-/*	background-color: rgb(51,51,51);
-	opacity: 0.25;*/
+	background-color: rgba(0,51,204,0.8);
+	font-family: 'Courgette', cursive;
+/*	background-color: rgb(51,51,51);*/
+	opacity: 0.75;
 
 }
 
-.container{
+.header{
 	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container{
+	width: 400px;
 	margin: 0 auto;
 	text-align: center;
 }
